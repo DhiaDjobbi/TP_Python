@@ -14,6 +14,6 @@ class Cubed:
             return num
         else:
             raise StopIteration()
-number = float(input(" Please Enter any numeric Value : "))
+number = int(input(" Please Enter any numeric Value : "))
 for i in Cubed(number):
     print(i)
